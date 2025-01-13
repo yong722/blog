@@ -23,8 +23,9 @@ module.exports = {
         text: '链接',
         icon: 'reco-message',
         items: [
-          { text: 'Gitee', link: 'https://gitee.com/braZ', icon: 'reco-mayun' },
-          { text: 'Npm', link: 'https://www.npmjs.com/~zycomponents', icon: 'reco-npm' },
+          { text: 'Gitee', link: 'https://gitee.com/zhang722', icon: 'reco-mayun' },
+          { text: 'Github', link: 'https://github.com/yong722/blog', icon: 'reco-github' },
+          { text: 'Npm', link: 'https://www.npmjs.com/~zhang521', icon: 'reco-npm' },
         ]
       }
     ],
@@ -44,6 +45,9 @@ module.exports = {
       ],
       '/blogs/2023/': [
         'guide/guide'
+      ],
+      '/blogs/2025/': [
+        'cesium/cesium'
       ]
     },
     type: 'blog',
@@ -197,7 +201,7 @@ module.exports = {
         }
       ],
     },
-    
+
     '@vuepress/plugin-medium-zoom': {
       selector: '.page img',
       delay: 1000,
@@ -211,4 +215,4 @@ module.exports = {
   markdown: {
     lineNumbers: true
   }
-}  
+}
